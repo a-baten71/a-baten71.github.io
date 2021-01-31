@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    background: lightblue;
+    padding:10px 15px 0 20px;
+    margin:0;
+    box-sizing: border-box;
+}
   
   .container-header::before{
     content: "";
@@ -11,26 +18,30 @@
    mix-blend-mode: overlay;
 }
    
-   .header{
-        flex-direction: column;
-        background: #fb5849;
-        box-sizing: border-box;
+.header{
+    flex-direction: column;
+    background: #fb5849;
+    box-sizing: border-box;
+    height: 60px;
+}
 
-    }
-
-.header .logo {
+.header .logo h4 {
     text-align: center;
-   padding-right: 110px;
-   color: white;
+    padding-right: 40px;
+    color: white;
+}
+
+.header .menu{
+    padding-top: 10px;
+
 }
 
 .header .menu .nav{
     flex-direction: column;
     width: 100%;
-   
-   text-align: center;
-   
-
+    text-align: center;
+    padding: 0;
+    
 }
 
 .header .menu .nav .nav-item{
@@ -38,16 +49,30 @@
     margin-right: 0;
     padding-right: 0;
     width: 100%;
-    
 }
 
 .header .menu .nav .nav-item a{
     color:black;
+    font-size: 18px;
 }
 
 .header .menu .nav .nav-item a:hover{
     color: white;
 }
+
+.container-header .header-center-text{
+   padding-top: 40px;
+}
+
+.container-header .header-center-text h5{
+    font-size: 18px;
+}
+
+.container-header .header-center-text h2{
+    font-size: 50px;
+
+}
+
 
 .containers-main-content{
     height: auto;
@@ -90,12 +115,10 @@
 }
 
 
-.footer-text{
-    
-    
+.footer-text{   
     height: auto;
     top: 10%;
-    left: 8%;
+    left: 6%;
     right: 4%;
     position: absolute;
     color: black;
@@ -109,7 +132,7 @@
 }
 
 .footer-text p{
-    width: 320px;
+    width: 310px;
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 14px;
