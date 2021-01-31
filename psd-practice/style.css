@@ -43,9 +43,9 @@ body{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
+    position: relative;
     top: 0;
-    margin-right: 100px;
+    
 }
 
 .header .logo{
@@ -206,10 +206,11 @@ button a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    box-sizing: border-box;
 }
 
 .footer-text{
-    width: 460px;
+    width: 100%;
     color: white;
     height: 300px;
     top: 30%;
@@ -225,6 +226,7 @@ button a:hover{
 }
 
 .footer-text p{
+    
     padding-top: 10px;
     padding-bottom: 30px;
     font-size: 18px;
