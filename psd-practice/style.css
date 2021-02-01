@@ -93,7 +93,55 @@ body{
 
 .header .menu .nav .nav-item a:hover{
     color: black;
+    transition: .8s;
+}
+
+.fa-angle-down{
+    padding-left: 5px;
+    top: 8px;
+    position: absolute;
+    color: black;
+}
+
+#dropdown {
+    position: relative;
+}
+
+
+#dropdown .dropdown-menu{
+    margin-top: 10px;
+    display: none;
+    padding-top: 12px;
+}
+
+#dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background: teal;
+    
+}
+
+#dropdown .dropdown-menu li{
+    list-style: none;
+    padding: 10px 20px 8px 8px;
+    border-bottom: 1px solid black;
     transition: .6s;
+    
+}
+
+#dropdown .dropdown-menu li a{
+    text-decoration: none;
+    
+    
+    
+}
+
+
+#dropdown .dropdown-menu li:hover{
+    color: black;
+    padding-left: 27px;
+    background: white;
+   
 }
 
 .container-header .header-center-text{
@@ -141,9 +189,10 @@ button a{
 }
 
 button a:hover{
-    border: .8px solid grey;
-    color: #fb5849;
-    background: none;  
+    color: white;
+    background: black;
+    opacity: .4;  
+    box-shadow: 3px 5px 40px black;
     transition: 1s;
 }
 

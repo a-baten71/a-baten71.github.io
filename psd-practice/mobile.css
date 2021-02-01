@@ -41,7 +41,7 @@ body{
     width: 100%;
     text-align: center;
     padding: 0;
-    
+    margin-top: 2px;
 }
 
 .header .menu .nav .nav-item{
@@ -51,14 +51,19 @@ body{
     width: 100%;
 }
 
+
 .header .menu .nav .nav-item a{
-    color:black;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 2px 25px;
+    color: black;
 }
 
 .header .menu .nav .nav-item a:hover{
     color: white;
+    background: teal;
+    
 }
+
 
 .container-header .header-center-text{
    padding-top: 40px;
@@ -78,6 +83,53 @@ button a{
     font-size: 14px;
     border-radius: 30px;
 
+}
+
+button a:hover{
+    background: black;
+    opacity: .3;
+
+}
+
+#dropdown .dropdown-menu{
+    margin-top: 10px;
+    display: none;
+    padding-top: 0;
+}
+
+
+#dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background: teal;
+    left: 59%;
+    top: 61%;
+    font-size: 16px;
+    z-index: 5;
+   
+}
+
+#dropdown .dropdown-menu li{
+    list-style: none;
+    padding: 4px 15px 4px 8px;
+    border-bottom: 1px solid black;
+    transition: .6s;
+    
+}
+
+#dropdown .dropdown-menu li a{
+    background: none;
+    padding : 4px 15px 4px 4px;
+    color:black;
+    font-size: 16px;
+
+}
+
+#dropdown .dropdown-menu li:hover{
+    background: white;
+    color:black;
+    padding-left: 15px;
+    
 }
 
 
