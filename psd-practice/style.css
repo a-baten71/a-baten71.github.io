@@ -130,9 +130,7 @@ body{
 }
 
 #dropdown .dropdown-menu li a{
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
     
 }
 
@@ -251,6 +249,7 @@ button a:hover{
  .about-text button a:hover{
      border: none;
      background: none;
+     color: black;
  }
 
 
@@ -299,6 +298,7 @@ button a:hover{
     border: none;
     outline: none;
     background: white;
+    color: #fb5849;
 }
 
 /* footer section ends */

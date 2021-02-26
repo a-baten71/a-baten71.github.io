@@ -1,0 +1,97 @@
+
+/* ==========================================
+   FINAL.CSS
+   These are the final styles for the project.
+
+   Course:  CSS3 in 30 Days
+   Author:  Brad Hussey
+   Website: codecollege.ca
+   ========================================== */
+
+
+/* =========================
+   STICKY HEADER
+   ========================= */
+
+body.sticky-header-lesson {
+  /* same height as sticky header + extra padding */
+  margin-top: 200px;
+}
+
+
+.sticky-header {
+  background: rgba(242,57,90,0.9);
+
+  /* this "fixes" the element in place, wherever you position it */
+  position: fixed;
+  top: 0;
+  height: 180px;
+
+  /* width needs to be 100% when fixed width */
+  width: 100%;
+
+  z-index: 99;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+  .sticky-header h1 {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin: 0 auto;
+  }
+
+    .sticky-header h1  {
+      color: #e92246e6;
+      font-size: 6rem;
+      text-transform: uppercase;
+      transform: skew(-5deg, -5deg) rotate(5deg);
+      transform-origin: center center;
+      padding-top: 50px;
+      padding-left: 30px;
+      font-weight: 600;
+      background: white;
+      font-family:monospace;
+      padding-bottom: 50px;
+      text-shadow: 
+      1px 1px 0px #e92246e6,
+      2px 2px 0px #e92246e6,
+      3px 3px 0px #e92246e6,
+      4px 4px 0px #e92246e6,
+      5px 5px 0px #e92246e6,
+      6px 6px 0px #e92246e6,
+      7px 7px 0px #e92246e6,
+      8px 8px 0px #e92246e6,
+      9px 9px 0px rgba(0,0,0,0.2);    
+      
+    }
+.sandbox h2{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 800;
+  color:#00b3b4;
+  text-shadow: 3px 3px 0px #e7eef1, 5px 5px 0px rgba(0,0,0,0.2);
+}
+/*.shadow { 
+  color: white; 
+  font: bold 52px Helvetica, Arial, Sans-Serif;
+  text-shadow: 1px 1px #fe4902, 
+               2px 2px #fe4902, 
+               3px 3px #fe4902;
+  -webkit-transition: all 0.12s ease-out;
+  -moz-transition:    all 0.12s ease-out;
+  -ms-transition:     all 0.12s ease-out;
+  -o-transition:      all 0.12s ease-out;
+}
+.shadow:hover {
+  position: relative; 
+  top: -3px; 
+  left: -3px; 
+  text-shadow: 1px 1px #fe4902, 
+               2px 2px #fe4902, 
+               3px 3px #fe4902, 
+               4px 4px #fe4902, 
+               5px 5px #fe4902, 
+               6px 6px #fe4902;
+}*/

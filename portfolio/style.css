@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Khand:wght@300&family=Open+Sans&family=Pacifico&family=Philosopher:wght@700&family=Reggae+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background:   #F2F2F2;
+    
+    font-family: 'Jockey One', sans-serif;
+    font-family: 'Khand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Reggae One', cursive;
+}
+
+
+
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/maxwell-nelson-Se9ufo2dO_g-unsplash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container-fluid::after{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: #3C5159;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0.9;
+}
+
+
+
+#collapsibleNavbar{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-right: 50px;
+    
+}
+
+.navbar{
+   
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 5px rgba(143, 134, 134, 0.3);
+    position: fixed;
+    height: 120px;
+    width: 100%;
+   background: transparent;
+   z-index: 6;
+}
+
+
+.nav-link{
+color:black;
+}
+
+#drop{
+    position: relative;
+}
+
+.d-menu{
+    display: none;
+}
+
+#drop .d-menu .nav-item{
+    list-style: none;
+    text-decoration: none;
+}
+  
+
+#drop:hover .d-menu{
+    display: block;
+    position: absolute;
+  background: #3C5159;
+  
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+   position: relative;
+}
+
+.heading h1{
+    font-size: 4rem;
+    color: white;
+    
+}
+
+
+.heading h3{
+    width: 0ch;
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    animation: animate 5s steps(12) infinite;
+    border-right: 3px solid white;
+    padding-right: 0;
+    margin-right: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes animate {
+    0%{
+        width:0ch;
+    }
+    100%{
+        width: 12ch;
+    }
+}
+
+
+
+
+.about-me{
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+
+.jumbotron{
+   display: flex;
+   background: white;
+}
+
+.about-me-info{
+    width: 50%;
+   padding-right: 0;
+}
+
+.about-me-text{
+   width: 50%;
+   padding-left: 0;
+   margin-left: 20px;
+}
+
+.p_info {
+    width: 100%;
+    display: flex;  
+   position: relative;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-top: 5px;
+
+   
+}
+
+
+.p_info img{
+    width:160px;
+    height: auto;
+    border: ;
+    background:   #F2F2F1;
+    margin-left: 0px;
+    padding-top: 10px;
+    height: 145px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+.p_info #img-me{
+
+    display: flex;
+    width:155px; 
+    height: 100%;
+
+}
+
+.p_info .info{
+    
+    padding-left: 20px;
+    width: 60%;
+    line-height: 20px;
+   text-transform: capitalize;
+   
+}
+
+.about-me-info .skill{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.progresbar{
+   
+   margin-left: 0;
+   
+   padding: 10px;
+}
+
+.progress{
+    background: white;
+    height: 13px;
+    border-radius: 0;
+    width: 100%;
+    background:   #F2F2F2;
+}
+
+.align{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress h5 .left{
+    width: 100%;
+}
+
+.progress h5 .right{
+    text-align: right;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.about-me-text h3{
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.about-me-text h3::after{
+    position: absolute;
+    content: " ";
+    width: 100px;
+    height: 3px;
+    background: black;
+    left: 18px;
+    margin-top: 40px;
+}
+
+.services{
+width: 100%;
+height: 100vh;
+margin-top: 50px;
+}
+
+.services .container{
+
+}
+
+.servises-text{
+    text-align: center;
+    margin-bottom: 70px;
+   
+}
+
+.servises-text p{
+    position: relative;
+    color: rgb(68, 58, 58);
+}
+
+.servises-text p::after{
+    position: absolute;
+    content: " ";
+    width: 100px;
+    height: 3px;
+    background: black;
+    left: 510px;
+    margin-top: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards #middle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bimage{
+    background-image: url("images/per-loov-_1Z4zsEXUSk-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.works{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    
+    background: rgba(0, 0, 138, 0.4);
+   
+}
+
+

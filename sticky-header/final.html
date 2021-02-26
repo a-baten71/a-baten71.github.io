@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+
+  <style>
+button{
+  display: block;
+  margin: 70px 100px;
+}
+
+    .one{
+      margin-top: 50px;
+      margin-left: 100px;
+      background: #E048AE;
+      color:whitesmoke;
+      padding: 8px 30px;
+      border: none;
+      border-radius: none;
+      text-transform: uppercase;
+      font-size: 20px;
+      box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.4);
+      outline: none;
+      transition: .8s;
+    }
+
+    .one:hover{
+      background: white;
+      color: #E048AE;
+      
+      box-shadow: 2px 2px #E048AE, -2px -2px#E048AE;
+     
+    }
+
+    .two{
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      border-radius: 25px;
+      color: white;
+      background:#3861FF;
+      position: relative;
+      overflow: hidden;
+      box-shadow: -2px 2px 10px 0px rgba(0,0,0,0.2),2px -2px 10px 0px rgba(0,0,0,0.2);
+    }
+
+    .two::after{
+      position: absolute;
+      content: " ";
+      height: 100%;
+      width: 100%;
+      background: black;
+      top:0;
+      left:-100%;
+     border-radius: 3px;
+     visibility: hidden;
+     transition: 0.5s;
+    }
+    
+    .two:hover.two::after {
+      visibility: visible;
+      color: white;
+      left:0;
+      opacity: 0.3;
+      border:none;
+      outline: none;
+     
+    }
+
+    .three{
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      border-radius: 25px;
+      color: white;
+      background:#090B0D;
+      position: relative;
+      overflow: hidden;
+      box-shadow: -2px 2px 10px 0px rgba(0,0,0,0.2),2px -2px 10px 0px rgba(0,0,0,0.2);
+    }
+
+    .three::after{
+      position: absolute;
+      content: "ton ";
+      background: #3B8EB8;
+      color:white;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: left;
+      height: 100%;
+      width: 50%;
+      align-items: center;
+      right:-50%;
+      top: 0;
+      bottom: 0;
+      padding-top: 10px;
+      transition: 0.9s;
+    }
+
+    .three::before{
+      position: absolute;
+      content: "but";
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: right;
+      height: 100%;
+      width: 50%;
+      background:#F2CB05;
+      color:#090B0D;
+      align-items: center;
+      left:-50%;
+      top: 0;
+      bottom: 0;
+      padding-top: 10px;
+      transition: 0.9s;
+      border-radius: none;
+    }
+
+    .three:hover.three::before {
+      visibility: visible;
+      color: white;
+      left:0;
+      opacity: 0.9;
+      border:none;
+      outline: none;
+     
+    }
+
+    .three:hover.three::after {
+      visibility: visible;
+      color: #010626;
+      right:0;
+      opacity: 0.9;
+      border:none;
+      outline: none;
+     
+    }
+
+    .four{
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      border-radius: 25px;
+      color: white;
+      background:#A60D7D;
+      position: relative;
+      overflow: hidden;
+      box-shadow: -2px 2px 10px 0px rgba(0,0,0,0.2),2px -2px 10px 0px rgba(0,0,0,0.2);
+    }
+
+    .four::after{
+      position: absolute;
+      content: "ton";
+      background:#0DFF85;
+      color:black;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: left;
+      height: 100%;
+      width: 50%;
+      top:-123%;
+      right: 0;
+      padding-top: 10px;
+      border-radius: none;
+      transition: 0.9s;
+      
+    }
+
+    .four::before{
+      position: absolute;
+      content: "but";
+      background: #0A1240;
+      color:white;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: right;
+      height: 100%;
+      width: 50%;
+      bottom:-123%;
+      left: 0;
+      padding-top: 10px;
+      line-height: 42px;
+      border-radius: none;
+      transition: 0.9s;
+     
+    }
+
+    .four:hover.four::before {
+      visibility: visible;
+      color: white;
+      bottom:0;
+      opacity: 0.9;
+      border:none;
+      outline: none;
+
+    }
+
+    .four:hover.four::after {
+      visibility: visible;
+      color: black;
+      top:0;
+      opacity: 0.9;
+      border:none;
+      outline: none;
+     
+    }
+
+    .five{
+      margin-top: 50px;
+      margin-left: 100px;
+      background: #3B8EB8;
+      color:whitesmoke;
+      padding: 8px 30px;
+      border: none;
+      border-radius: none;
+      text-transform: uppercase;
+      font-size: 20px;
+      
+      outline: none;
+      transition: .8s;
+    }
+
+    .five:hover{
+      background: white;
+      color: #3B8EB8;
+      box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.4);
+      
+     
+    }
+
+
+
+
+
+
+    div{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 60px;
+     
+    }
+
+
+    .animate::after{
+      content: "webdevoloper";
+      width: 12ch;
+      animation: change 2s steps(12) infinite;
+      border-right: 3px solid black;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    
+    @keyframes change{
+      0%{
+        
+        width: 0ch;
+      }
+      100%{
+        
+        width: 12ch;
+      }
+      
+    }
+  </style>
+
+</head>
+<body>
+  <button class="one">Button</button>
+  <button class="two">Button</button>
+  <button class="three">Button</button>
+  <button class="four">Button</button>
+  <button class="five">Button</button>
+
+
+<div>
+ <p>i am abdul baten </p> 
+  <div class="animate"></div>
+</div>
+
+<script>
+  console.log("hi");
+</script>
+ 
+</body>
+</html>

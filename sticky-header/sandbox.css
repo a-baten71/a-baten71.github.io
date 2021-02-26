@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-header-lesson{
+    margin-top:200px;
+}
+
+.sticky-header{
+    width: 100%;
+    background: rgba(255, 44, 90, 0.9);
+    height: 180px;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 0 rgba(255, 44, 90, 0.2);
+    padding-left: 100px;
+}
+
+.sticky-header h1{
+
+}
+
+.sticky-header h1 small{
+   padding-left: 20px; 
+   color: rgba(0, 0, 0, 0.3)
+
+}
